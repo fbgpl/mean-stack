@@ -5,6 +5,7 @@
     "ng": "npx ng",
     "start": "npx ng serve",
     "build": "npx ng build",
+    "build-prod": "npx ng build --prod --aot",
     "test": "npx ng test",
     "lint": "npx ng lint",
     "e2e": "npx ng e2e"
