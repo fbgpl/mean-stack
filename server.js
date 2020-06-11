@@ -58,7 +58,7 @@ app.delete('/api/posts/:id', async (req, res) => {
   res.json(status);
 });
 
-// serve static react app
+// serve static angular app
 app.use(
   '/',
   express.static(path.resolve(path.dirname(''), './client/dist/client'))
