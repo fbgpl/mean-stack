@@ -12,10 +12,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@angular-devkit/build-angular": "^0.901.8",
+    "@angular/cli": "^9.1.8",
     "nodemon": "^2.0.4"
   },
   "dependencies": {
-    "@angular/cli": "^9.1.8",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "nedb-async-await": "^0.1.2"
